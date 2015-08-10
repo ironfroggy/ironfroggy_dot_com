@@ -23,4 +23,11 @@ branches:
     - master
 
 after_success:
+  - mkdir -p ~/.ssh/
+  - echo $SSH_PRIVATE_KEY > ~/.ssh/id_rsa
+  - chmod go-rwx ~/.ssh/
   - make publish
+
+addons:
+  ssh_known_hosts:
+  - ash-alpha.ironfroggy.com
