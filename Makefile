@@ -71,9 +71,9 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish: html
-	scp -r output/* ash-alpha.ironfroggy.com:/var/www/www-ironfroggy-com/
+	scp -r output/* calvin@ash-alpha.ironfroggy.com:/var/www/www-ironfroggy-com/
 
 nginx:
-	scp site.conf ash-alpha.ironfroggy.com:/tmp/site.conf
-	ssh ash-alpha.ironfroggy.com sudo mv /tmp/site.conf /etc/nginx/sites-enabled/www-ironfroggy-com
-	ssh ash-alpha.ironfroggy.com sudo service nginx reload
+	scp site.conf calvin@ash-alpha.ironfroggy.com:/tmp/site.conf
+	ssh calvin@ash-alpha.ironfroggy.com sudo mv /tmp/site.conf /etc/nginx/sites-enabled/www-ironfroggy-com
+	ssh calvin@ash-alpha.ironfroggy.com sudo service nginx reload
