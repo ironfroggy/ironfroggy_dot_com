@@ -1,0 +1,26 @@
+sudo: false
+
+language: python
+
+python:
+  - "3.4"
+
+env:
+  - PIP_DOWNLOAD_CACHE="pipcache"
+
+cache:
+  directories:
+    - pipcache
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - make html
+
+branches:
+  only:
+    - master
+
+after_success:
+  - make upload
