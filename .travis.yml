@@ -25,7 +25,7 @@ branches:
 after_success:
   - mkdir -p ~/.ssh/
   - echo $SSH_PRIVATE_KEY > ~/.ssh/id_rsa
-  - chmod go-rwx ~/.ssh/
+  - chmod -R go-rwx ~/.ssh/
   - make publish
 
 addons:
