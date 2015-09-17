@@ -20,10 +20,12 @@ endif
 
 FILENAME = $(shell ls importqueue/ | head -n 1)
 import_next:
+	echo $(FILENAME) > .import-filename
 	echo $(FILENAME)
 	mv importqueue/$(FILENAME) content/
-import: import_next clean html
 	atom content/$(FILENAME)
+import: clean import_next html
+	@echo ""
 
 help:
 	@echo 'Makefile for a pelican Web site                                           '
