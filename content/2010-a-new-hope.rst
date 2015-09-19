@@ -2,6 +2,7 @@
 ################
 :date: 2010-01-10 17:12
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: prediction, 2010, list
 :slug: 2010-a-new-hope
 

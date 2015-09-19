@@ -2,6 +2,7 @@ A short comment on the future of programming languages
 ######################################################
 :date: 2006-03-05 18:23
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: programming
 :slug: a-short-comment-on-the-future-of-programming-languages
 

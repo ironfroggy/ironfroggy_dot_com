@@ -2,6 +2,7 @@ A little trick for wide pages
 #############################
 :date: 2012-01-26 12:26
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: tools, web design, web
 :slug: a-little-trick-for-wide-pages
 

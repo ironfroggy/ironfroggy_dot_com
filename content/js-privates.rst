@@ -2,6 +2,7 @@ JS Privates
 ################################
 :date: 2011-09-21 12:32
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: javascript
 :slug: js-privates
 

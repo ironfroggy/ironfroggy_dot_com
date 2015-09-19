@@ -2,6 +2,7 @@
 ####################################################
 :date: 2013-11-10 14:22
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: web development, html5, javascript, x-tags, community, polymer, web components
 :slug: 5-reasons-web-components-arent-ready-for-prime-time
 

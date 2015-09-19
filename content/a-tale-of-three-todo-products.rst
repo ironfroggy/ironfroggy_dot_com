@@ -2,6 +2,7 @@ A tale of three TODO products
 #############################
 :date: 2011-06-28 01:58
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: organization, productivity, review
 :slug: a-tale-of-three-todo-products
 

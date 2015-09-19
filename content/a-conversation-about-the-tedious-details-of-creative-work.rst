@@ -2,6 +2,7 @@ A Conversation About The Tedious Details of Creative Work
 #########################################################
 :date: 2010-05-20 14:37
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: css, conversation, web
 :slug: a-conversation-about-the-tedious-details-of-creative-work
 

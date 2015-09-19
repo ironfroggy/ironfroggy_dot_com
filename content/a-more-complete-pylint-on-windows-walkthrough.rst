@@ -2,6 +2,7 @@ A More Complete PyLint on Windows Walkthrough
 #############################################
 :date: 2008-11-13 23:05
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: programming, tools, python
 :slug: a-more-complete-pylint-on-windows-walkthrough
 

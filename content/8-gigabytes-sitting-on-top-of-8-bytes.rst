@@ -2,6 +2,7 @@
 #####################################
 :date: 2014-02-18 03:26
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: interesting, computers, whoa
 :slug: 8-gigabytes-sitting-on-top-of-8-bytes
 

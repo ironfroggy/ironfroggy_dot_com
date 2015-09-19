@@ -2,6 +2,7 @@ A Drop of Thought
 #################
 :date: 2007-05-02 13:25
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: advertising, python
 :slug: a-drop-of-thought
 

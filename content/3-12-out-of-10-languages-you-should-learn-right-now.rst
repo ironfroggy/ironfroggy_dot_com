@@ -2,6 +2,7 @@
 ####################################################
 :date: 2006-09-17 05:26
 :author: Calvin Spealman (noreply@blogger.com)
+:category: technology
 :tags: programming
 :slug: 3-12-out-of-10-languages-you-should-learn-right-now
 
