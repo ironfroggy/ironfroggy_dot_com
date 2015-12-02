@@ -2,7 +2,8 @@ ANN: Django Better Cache 0.5.3
 ##############################
 :date: 2012-02-15 01:05
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:category: technology
+:tags: bettercache
 :slug: ann-django-better-cache-053
 
 I've added a small, but useful, addition to Django Better Cache,
@@ -21,7 +22,7 @@ to learn more.
 
     class FriendsLookup(forms.Form):
         username = forms.CharField(required=True)
-        
+
         @CachedFormMethod(expires=60*15) # expire in 15 minutes
         def get_friends_list(self, include_pending=False):
             username = self.cleaned_data['username']

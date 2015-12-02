@@ -3,7 +3,7 @@ ANN: Django Better Cache 0.5.1 with expanded docs
 :date: 2012-01-31 10:57
 :author: Calvin Spealman (noreply@blogger.com)
 :category: technology
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:tags: bettercache
 :slug: ann-django-better-cache-051-with-expanded-docs
 
 I've made a small incremental release on Django Better Cache, adding a

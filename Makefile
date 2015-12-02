@@ -18,15 +18,6 @@ ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
 endif
 
-FILENAME = $(shell ls importqueue/ | head -n 1)
-import_next:
-	echo $(FILENAME) > .import-filename
-	echo $(FILENAME)
-	mv importqueue/$(FILENAME) content/
-	atom content/$(FILENAME)
-import: clean import_next html
-	@echo ""
-
 help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
@@ -43,6 +34,16 @@ help:
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
+
+
+FILENAME = $(shell ls importqueue/ | head -n 1)
+import_next:
+	echo $(FILENAME) > .import-filename
+	echo $(FILENAME)
+	mv importqueue/$(FILENAME) content/
+	atom content/$(FILENAME)
+import: clean import_next html
+	@echo ""
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
