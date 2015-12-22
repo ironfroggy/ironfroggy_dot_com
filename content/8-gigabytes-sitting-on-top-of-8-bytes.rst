@@ -16,7 +16,7 @@ From \ http://en.wikipedia.org/wiki/File:8_bytes_vs._8Gbytes.jpg via
 `@Tef <http://twitter.com/tef>`__
 
 
-.. |image0| image:: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
-   :target: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
-.. |image1| image:: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
-   :target: http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
+.. |image0| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
+   :target: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
+.. |image1| image:: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg
+   :target: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/8_bytes_vs._8Gbytes.jpg/800px-8_bytes_vs._8Gbytes.jpg

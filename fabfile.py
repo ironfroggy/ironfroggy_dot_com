@@ -1,5 +1,8 @@
+#!/usr/bin/env python
 from fabric.api import *
 import fabric.contrib.project as project
+import datetime
+import re
 import os
 import shutil
 import sys
@@ -92,3 +95,29 @@ def gh_pages():
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
+
+def slugify(s):
+    s = re.sub(r'[^ A-Za-z_\-0-9]', '', s)
+    s = s.lower()
+    s = s.replace(' ', '-')
+    return s
+def fmtdate(d):
+    return d.strftime('%Y-%m-%d %H:%M')
+
+PARAMS = ('title', 'slug', 'category', 'tags')
+def newpost():
+    params = dict(
+        (key, raw_input(key.title()+": "))
+        for key in PARAMS
+    )
+    today = datetime.datetime.now()
+    if not params['slug']:
+        params['slug'] = slugify(params['title'])
+
+    with open("content/%s.rst" % (params['slug'],), "w") as f:
+        print >>f, params['title']
+        print >>f, "#" * len(params['title'])
+        print >>f, "date:", fmtdate(today)
+        for key in params:
+            print >>f, key+":", params[key]
+    os.system("atom content/%s.rst" % (params['slug'],))
