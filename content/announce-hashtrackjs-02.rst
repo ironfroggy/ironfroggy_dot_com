@@ -4,6 +4,7 @@ ANNOUNCE: Hashtrack.js 0.2
 :author: Calvin Spealman (noreply@blogger.com)
 :tags: http://schemas.google.com/blogger/2008/kind#post, announcement, development, web
 :slug: announce-hashtrackjs-02
+:category: technology
 
 Hashtrack.js 0.2 includes a number of bug fixes and enhancements, and
 I'd like to start doing official releases that really show off what the

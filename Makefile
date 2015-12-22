@@ -46,6 +46,7 @@ import: clean import_next html
 	@echo ""
 
 html:
+	echo "Building with conf:" $(CONFFILE)
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
@@ -80,6 +81,7 @@ stopserver:
 	$(BASEDIR)/develop_server.sh stop
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
+publish: CONFFILE = $(PUBLISHCONF)
 publish: html
 	scp -r output/* calvin@ash-alpha.ironfroggy.com:/var/www/www-ironfroggy-com/
 

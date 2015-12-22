@@ -4,6 +4,7 @@ Announce: ExtSession
 :author: Calvin Spealman (noreply@blogger.com)
 :tags: http://schemas.google.com/blogger/2008/kind#post, python
 :slug: announce-extsession
+:category: technology
 
 As a support package for some other things, I've written a little
 module called ExtSession. The basic idea is to have an easy way to
