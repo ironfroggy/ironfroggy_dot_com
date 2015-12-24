@@ -81,14 +81,15 @@ def cf_upload():
 @hosts(production)
 def publish():
     """Publish to production via rsync"""
-    local('pelican -s publishconf.py')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True,
-        extra_opts='-c',
-    )
+    # local('pelican -s publishconf.py')
+    # project.rsync_project(
+    #     remote_dir=dest_path,
+    #     exclude=".DS_Store",
+    #     local_dir=DEPLOY_PATH.rstrip('/') + '/',
+    #     delete=True,
+    #     extra_opts='-c',
+    # )
+    local("make publish")
 
 def gh_pages():
     """Publish to GitHub Pages"""
@@ -114,7 +115,12 @@ def newpost():
     if not params['slug']:
         params['slug'] = slugify(params['title'])
 
-    with open("content/%s.rst" % (params['slug'],), "w") as f:
+    f = open("content/{year}/{month}/{slug}.rst".format(
+        year=today.year,
+        month=today.month,
+        slug=params['slug'],
+        ), "w")
+    with f:
         print >>f, params['title']
         print >>f, "#" * len(params['title'])
         print >>f, "date:", fmtdate(today)

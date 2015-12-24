@@ -159,8 +159,8 @@ aside, nav, article, figure {
 
 /***** Layout *****/
 .body {clear: both; margin: 0 auto; width: 800px;}
-img.right, figure.right {float: right; margin: 0 0 2em 2em;}
-img.left, figure.left {float: left; margin: 0 2em 2em 0;}
+img.right, figure.right, .figure.align-right {float: right; margin: 0 0 2em 2em;}
+img.left, figure.left, .figure.align-left {float: left; margin: 0 2em 2em 0;}
 
 /*
     Header
@@ -315,6 +315,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
     #extras div[class='social'] a {
         background-repeat: no-repeat;
         background-position: 3px 6px;
+        background-size: 16px 16px;
         padding-left: 25px;
     }
 
@@ -342,6 +343,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
         .social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
         .social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
         .social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
+        .social a[href*='tumblr.com'] {background-image: url('../images/icons/tumblr.png');}
         .social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
         .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
         .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}

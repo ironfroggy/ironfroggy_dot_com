@@ -35,6 +35,7 @@ LINKS = (
 SOCIAL = (
     ('@ironfroggy', 'http://twitter.com/ironfroggy/'),
     ('Github', 'http://github.com/ironfroggy'),
+    ('My Web Have-Read List', 'http://ironfroggy-reads.tumblr.com/'),
 )
 
 DEFAULT_PAGINATION = 10
