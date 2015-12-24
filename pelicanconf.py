@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Calvin Spealman'
 SITENAME = 'www.ironfroggy.com'
-SITEURL = 'localhost:8000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 THEME = 'theme'
@@ -23,6 +23,7 @@ AUTHOR_FEED_RSS = None
 
 CATEGORY_SAVE_AS = CATEGORY_URL = "{slug}/index.html"
 ARTICLE_SAVE_AS = ARTICLE_URL = "{category}/{date:%Y}/{slug}.html"
+TAGS_SAVE_AS = "tag/index.html"
 
 # Blogroll
 LINKS = (
@@ -41,3 +42,8 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 DISPLAY_CATEGORIES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = True
+
+MENUITEMS = (
+    ("Tags", "/tag/"),
+)

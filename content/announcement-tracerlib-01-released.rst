@@ -2,7 +2,7 @@ Announcement: Tracerlib 0.1 Released
 ####################################
 :date: 2012-06-06 22:34
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, tracerlib, python, announcement
+:tags:  tracerlib, python, announcement
 :slug: announcement-tracerlib-01-released
 
 Tracerlib is a set of utilities to make tracing Python code easier.

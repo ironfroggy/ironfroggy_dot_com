@@ -2,7 +2,7 @@ Announcement For Blogger.com Users: Make Those Profiles Public
 ##############################################################
 :date: 2007-05-10 18:27
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, community
+:tags:  community
 :slug: announcement-for-bloggercom-users-make-those-profiles-public
 
 We live in an open society. Make all of your profiles public, especially

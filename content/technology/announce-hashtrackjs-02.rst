@@ -2,7 +2,7 @@ ANNOUNCE: Hashtrack.js 0.2
 ##########################
 :date: 2011-05-30 02:11
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, announcement, development, web
+:tags:  announcement, development, web
 :slug: announce-hashtrackjs-02
 :category: technology
 

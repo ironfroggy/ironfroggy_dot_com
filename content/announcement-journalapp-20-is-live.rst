@@ -2,7 +2,7 @@ Announcement: JournalApp 2.0 is Live
 ####################################
 :date: 2011-07-02 03:20
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, journalapp, announcement
+:tags:  journalapp, announcement
 :slug: announcement-journalapp-20-is-live
 
 **Note:** This project is no longer supported or available

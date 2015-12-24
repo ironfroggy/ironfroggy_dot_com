@@ -2,7 +2,7 @@ Announce: ExtSession
 ####################
 :date: 2006-12-06 05:29
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, python
+:tags:  python
 :slug: announce-extsession
 :category: technology
 

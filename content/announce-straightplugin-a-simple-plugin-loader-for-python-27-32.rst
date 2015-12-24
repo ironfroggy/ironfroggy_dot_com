@@ -2,7 +2,7 @@ ANNOUNCE: straight.plugin - A simple plugin loader for Python 2.7 - 3.2
 #######################################################################
 :date: 2011-05-02 01:06
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, python, announcement
+:tags:  python, announcement
 :slug: announce-straightplugin-a-simple-plugin-loader-for-python-27-32
 
 Tonight I uploaded straight.plugin 1.1 to the Python Package Index. This
