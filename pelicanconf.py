@@ -9,6 +9,7 @@ SITEURL = 'http://localhost:8000'
 PATH = 'content'
 THEME = 'theme'
 THEME_STATIC_DIR = 'static'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'US/Eastern'
 
