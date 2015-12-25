@@ -44,9 +44,10 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 DISPLAY_CATEGORIES_ON_MENU = True
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 USE_FOLDER_AS_CATEGORY = False
 
 MENUITEMS = (
+    ("About", "/pages/about.html"),
     ("Tags", "/tag/"),
 )
