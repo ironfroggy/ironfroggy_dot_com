@@ -23,7 +23,7 @@ using Direct3D and one using OpenGL, and to compile them for the same
 target, using either. We'll see the ability for compilers to restructure
 the original code in such a way that library APIs will be more than
 calls to link to, but templates that will portray the intentions of the
-progarmmers and be able to adapt them to the target in question.
+programmers and be able to adapt them to the target in question.
 
 I call this "Hard Linked Libraries", but I'm sure a dozen names will
 surface. Python could make moves toward something like this, I'm sure.
@@ -31,4 +31,4 @@ But my guess is that eventually something will surface in .Net to do
 things along these lines, probably using or extending generics.
 
 I'll post more, and maybe some mockups. What do you think? Is this
-likely or feasable or stupid?
+likely or feasible or stupid?
