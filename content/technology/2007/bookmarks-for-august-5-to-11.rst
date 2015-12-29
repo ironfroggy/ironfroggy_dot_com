@@ -4,6 +4,7 @@ Bookmarks for August 5 to 11
 :author: Calvin Spealman (noreply@blogger.com)
 :tags: http://schemas.google.com/blogger/2008/kind#post, links
 :slug: bookmarks-for-august-5-to-11
+:category: technology
 
 #. `wzdd: On computer programming <http://wzdd.livejournal.com/6017.html>`__ Is this really what we do? `funny <http://del.icio.us/ironfroggy/funny>`__ `programming <http://del.icio.us/ironfroggy/programming>`__
 
