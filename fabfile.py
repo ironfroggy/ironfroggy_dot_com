@@ -115,15 +115,16 @@ def newpost():
     if not params['slug']:
         params['slug'] = slugify(params['title'])
 
-    f = open("content/{year}/{month}/{slug}.rst".format(
+    f = open("content/{category}/{year}/{slug}.rst".format(
         year=today.year,
         month=today.month,
         slug=params['slug'],
+        category=params['category'],
         ), "w")
     with f:
         print >>f, params['title']
         print >>f, "#" * len(params['title'])
         print >>f, "date:", fmtdate(today)
         for key in params:
-            print >>f, key+":", params[key]
+            print >>f, ":{}: {}".format(key, params[key])
     os.system("atom content/%s.rst" % (params['slug'],))
