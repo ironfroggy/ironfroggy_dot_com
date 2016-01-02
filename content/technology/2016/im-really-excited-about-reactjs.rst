@@ -112,7 +112,9 @@ Finally, it is really important to look at a non-
 technical aspect of a dependency before you depend on it very deeply.
 There are many projects out there that fill the same shoes as ReactJS,
 and some of them even have impressive accomplishments that objectively
-set them apart from it! Elm and Riot are both great contenders beside
+set them apart from it! `Elm <http://elm-lang.org/>`__ and
+`Mercury <https://github.com/Raynos/mercury>`__
+and `Riot <http://riotjs.com/>`__ are great contenders beside
 React, each with their own very positive attributes that set them
 apart and make them absolutely great options.
 
