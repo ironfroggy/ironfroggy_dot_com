@@ -38,6 +38,8 @@ SOCIAL = (
     ('My Web Have-Read List', 'http://ironfroggy-reads.tumblr.com/'),
 )
 
+DISQUS_SITENAME = "wwwironfroggycom"
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
