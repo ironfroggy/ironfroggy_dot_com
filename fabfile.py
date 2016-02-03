@@ -125,6 +125,7 @@ def newpost():
     with f:
         print >>f, params['title']
         print >>f, "#" * len(params['title'])
+        print >>f, ":status:", "draft"
         print >>f, ":date:", fmtdate(today)
         for key in params:
             print >>f, ":{}: {}".format(key, params[key])

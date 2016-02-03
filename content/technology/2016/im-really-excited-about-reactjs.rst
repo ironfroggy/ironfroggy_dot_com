@@ -13,7 +13,7 @@ grow for a while now, with a few experiments and tutorials and lots of
 reading. There is a strong habit of Shiny New Thing syndrome in the
 web world, and I’m as guilty of it as anyone else, so a lot of effort
 was made to avoid jumping on the bandwagon too soon. After building my
-first simple but complete application with ReactJS (and Flux) I’m not
+first simple but complete application with ReactJS (and Flux) I’m
 absolutely convinced it is the best option for me to build web
 interfaces going forward.
 
