@@ -84,7 +84,7 @@ stopserver:
 
 publish: CONFFILE = $(PUBLISHCONF)
 publish: html
-	scp -r output/* calvin@ash-alpha.ironfroggy.com:/var/www/www-ironfroggy-com/
+	rsync -r output/* calvin@ash-alpha.ironfroggy.com:/var/www/www-ironfroggy-com/
 
 nginx:
 	scp site.conf calvin@ash-alpha.ironfroggy.com:/tmp/site.conf

@@ -105,8 +105,17 @@ def slugify(s):
 def fmtdate(d):
     return d.strftime('%Y-%m-%d %H:%M')
 
+def draft():
+    with open(datetime.datetime.now().strftime('drafts/%Y-%m-%d.%H-%M.txt'), 'w') as f:
+        try:
+            while True:
+                line = raw_input()
+                print >>f, line
+        except EOFError:
+            pass
+
 PARAMS = ('title', 'slug', 'category', 'tags')
-def newpost():
+def newpost(src=None):
     params = dict(
         (key, raw_input(key.title()+": "))
         for key in PARAMS
@@ -134,4 +143,7 @@ def newpost():
         # if paste[0].lower() == 'y':
         #     for line in sys.stdin:
         #         print >>f, line
+        if src:
+            print >>f
+            f.write(open(src).read())
     os.system("atom %s" % (filename,))
