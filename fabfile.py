@@ -48,22 +48,22 @@ def regenerate():
     """Automatically regenerate site upon file modification"""
     local('pelican -r -s pelicanconf.py')
 
-def serve():
+def serve(port=PORT):
     """Serve site at http://localhost:8000/"""
     os.chdir(env.deploy_path)
 
     class AddressReuseTCPServer(SocketServer.TCPServer):
         allow_reuse_address = True
 
-    server = AddressReuseTCPServer(('', PORT), ComplexHTTPRequestHandler)
+    server = AddressReuseTCPServer(('', int(port)), ComplexHTTPRequestHandler)
 
-    sys.stderr.write('Serving on port {0} ...\n'.format(PORT))
+    sys.stderr.write('Serving on port {0} ...\n'.format(port))
     server.serve_forever()
 
-def reserve():
+def reserve(port=PORT):
     """`build`, then `serve`"""
     build()
-    serve()
+    serve(port)
 
 def preview():
     """Build production version of site"""
