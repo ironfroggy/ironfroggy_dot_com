@@ -2,7 +2,7 @@ Brett Cannon: Clarifications on LINQ
 ####################################
 :date: 2006-02-12 03:26
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:tags: 
 :slug: brett-cannon-clarifications-on-linq
 :status: published
 :category: technology

@@ -2,7 +2,7 @@ Bookmarks for March 26, 2010
 ############################
 :date: 2010-03-27 13:08
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: canvas, http://schemas.google.com/blogger/2008/kind#post, jquery plugin, blogging, bookmarks
+:tags: canvas,  jquery plugin, blogging, bookmarks
 :slug: bookmarks-for-march-26-2010
 :category: technology
 

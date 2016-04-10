@@ -2,7 +2,7 @@ But, didn't PHP break the Web in the first place?
 #################################################
 :date: 2006-09-16 01:01
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:tags: 
 :slug: but-didnt-php-break-the-web-in-the-first-place
 :status: published
 :category: technology

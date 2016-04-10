@@ -2,7 +2,7 @@ Caktus Ship It! Day 2014 Q3 Post-Mortem - Part 2: Playlists and Peers
 #####################################################################
 :date: 2014-10-13 17:00
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, html5, caktus group, WebRTC, sharptune, ship it day
+:tags:  html5, caktus group, WebRTC, sharptune, ship it day
 :slug: caktus-ship-it-day-2014-q3-post-mortem-part-2-playlists-and-peers
 :status: published
 :category: technology

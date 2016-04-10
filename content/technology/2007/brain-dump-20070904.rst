@@ -3,7 +3,7 @@ Brain Dump 20070904
 :status: published
 :date: 2007-09-04 09:17
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, videogame, python
+:tags:  videogame, python
 :slug: brain-dump-20070904
 :category: technology
 

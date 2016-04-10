@@ -2,7 +2,7 @@ CARDIAC: The Cardboard Computer
 ###############################
 :date: 2014-10-13 18:00
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:tags: 
 :slug: cardiac-the-cardboard-computer
 :status: published
 :category: technology

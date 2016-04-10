@@ -2,7 +2,7 @@ Caktus Ship It! Day 2014 Q3 Post-Mortem - Part 1: Proof of Concept in Under an H
 ###################################################################################
 :date: 2014-10-13 22:29
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, html5, caktus group, WebRTC, sharptune, ship it day
+:tags:  html5, caktus group, WebRTC, sharptune, ship it day
 :slug: caktus-ship-it-day-2014-q3-post-mortem-part-1-proof-of-concept-in-under-an-hour
 :status: published
 :category: technology

@@ -2,7 +2,7 @@ Blink
 #####
 :date: 2010-07-19 18:51
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: css, funny, http://schemas.google.com/blogger/2008/kind#post, web
+:tags: css, funny,  web
 :slug: blink
 :category: technology
 

@@ -2,7 +2,7 @@ Bookmarks for August 5 to 11
 ############################
 :date: 2007-08-12 13:27
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, links
+:tags:  links
 :slug: bookmarks-for-august-5-to-11
 :category: technology
 

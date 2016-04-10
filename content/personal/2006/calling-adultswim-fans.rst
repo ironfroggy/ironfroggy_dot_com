@@ -2,7 +2,7 @@ Calling [adultswim] Fans
 ########################
 :date: 2006-11-29 08:14
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: irc, http://schemas.google.com/blogger/2008/kind#post, community, adultswim
+:tags: irc,  community, adultswim
 :slug: calling-adultswim-fans
 :status: published
 :category: personal

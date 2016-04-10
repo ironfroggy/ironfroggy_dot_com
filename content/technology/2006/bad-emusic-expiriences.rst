@@ -2,7 +2,7 @@ Bad eMusic Expiriences?
 #######################
 :date: 2006-04-20 02:54
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post
+:tags: 
 :slug: bad-emusic-expiriences
 
 Has anyone has had a bad experience with eMusic? Lured by promises of

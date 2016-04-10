@@ -2,7 +2,7 @@ Book Review: Practices of an Agile Developer
 ############################################
 :date: 2007-02-21 07:38
 :author: Calvin Spealman (noreply@blogger.com)
-:tags: http://schemas.google.com/blogger/2008/kind#post, programming, review, book
+:tags:  programming, review, book
 :slug: book-review-practices-of-an-agile-developer
 :category: technology
 
